@@ -1,3 +1,5 @@
+package Linked_List;
+
 public class MakingLinkedListUsingInsertLast {
     private class ListNode{
         int data;

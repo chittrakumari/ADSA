@@ -1,3 +1,5 @@
+package Linked_List;
+
 public class LinkedList{
 
 
@@ -48,7 +50,7 @@ public class LinkedList{
         temp.next=null;
         return head;
     }
-    private ListNode insertAtGivenPositionInALinkedlist(int data,int position){
+    private ListNode insertAtGivenPositionInALinkedlist(int data, int position){
         ListNode node=new ListNode(data);
         ListNode current=head;
         if(position==1){
@@ -96,7 +98,7 @@ public class LinkedList{
         return head;
     }
     public static void main(String[] args){
-       LinkedList obj=new LinkedList();
+        LinkedList obj=new LinkedList();
         obj.insertLast(10);
         obj.insertLast(20);
         obj.insertLast(30);
